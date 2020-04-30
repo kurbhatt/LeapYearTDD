@@ -22,4 +22,10 @@ public class LeapYearAppTest {
         boolean isLeapYear = LeapYearApp.isLeapYear(2000);
         Assert.assertEquals(true, isLeapYear);
     }
+
+    @Test
+    public void isDivisibleBy100Test() {
+        boolean isLeapYear = LeapYearApp.isLeapYear(2000);
+        Assert.assertEquals(true, isLeapYear);
+    }
 }
