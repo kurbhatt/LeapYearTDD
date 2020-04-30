@@ -28,4 +28,10 @@ public class LeapYearAppTest {
         boolean isLeapYear = LeapYearApp.isLeapYear(2000);
         Assert.assertEquals(true, isLeapYear);
     }
+
+    @Test
+    public void isDivisibleBy4Test() {
+        boolean isLeapYear = LeapYearApp.isLeapYear(2008);
+        Assert.assertEquals(true, isLeapYear);
+    }
 }
