@@ -6,7 +6,7 @@ public class LeapYearApp {
         int year = 2020;
         boolean isLeapYear = isLeapYear(year);
         if (isLeapYear) {
-            System.out.println(String.format("You need to plan for an extra day as %d is leap year", isLeapYear));
+            System.out.println(String.format("You need to plan for an extra day as %d is leap year", year));
         } else {
             System.out.println(String.format("No worries %d is not leap year", year));
         }
