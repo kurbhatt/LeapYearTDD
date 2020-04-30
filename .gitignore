@@ -1,0 +1,42 @@
+
+.classpath
+.project
+.settings
+.springBeans
+.factorypath
+target
+*/target
+mvnw
+mvnw.cmd
+.DS_Store
+.mvn
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.idea/
+
+# Maven
+log/
+target/
+
+# To ignore logs directory created while running services.
+**/logs/**
+**/logs
+*.log
+
+*.class
+
+#Gradle
+.gradletasknamecache
+.gradle/
+build/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# include third party libs from the folder into the repo
+!libs/*
