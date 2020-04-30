@@ -3,7 +3,7 @@ package org.tst.ly;
 public class LeapYearApp {
 
     public static void main(String[] args) {
-        int year = 2020;
+        int year = 2000;
         boolean isLeapYear = isLeapYear(year);
         if (isLeapYear) {
             System.out.println(String.format("You need to plan for an extra day as %d is leap year", year));
@@ -17,6 +17,6 @@ public class LeapYearApp {
     }
 
     public static boolean isDivisibleBy400(int year) {
-        return false;
+        return year % 400 == 0;
     }
 }

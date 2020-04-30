@@ -16,4 +16,10 @@ public class LeapYearAppTest {
         boolean isLeapYear = LeapYearApp.isLeapYear(2020);
         Assert.assertEquals(false, isLeapYear);
     }
+
+    @Test
+    public void isDivisibleBy400PassTest() {
+        boolean isLeapYear = LeapYearApp.isLeapYear(2000);
+        Assert.assertEquals(true, isLeapYear);
+    }
 }
