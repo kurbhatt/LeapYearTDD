@@ -13,17 +13,13 @@ public class LeapYearApp {
     }
 
     public static boolean isLeapYear(int year) {
-        if (isDivisibleBy100(year)) {
-            return isDivisibleBy400(year);
+        if (isValueDivisibleBy(year, 100)) {
+            return isValueDivisibleBy(year, 400);
         }
         return false;
     }
 
-    public static boolean isDivisibleBy400(int year) {
-        return year % 400 == 0;
-    }
-
-    public static boolean isDivisibleBy100(int year) {
-        return year % 100 == 0;
+    public static boolean isValueDivisibleBy(int value, int divider) {
+        return value % divider == 0;
     }
 }
